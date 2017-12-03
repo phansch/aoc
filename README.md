@@ -12,3 +12,6 @@ That script automates a bunch of stuff, because my time is limited:
 2. Downloads the input for the first part of the challenge into the root of that project
 3. Copies over the `main.rs` from the template file
 4. `cd`s into the project and opens up the `main.rs` in vim.
+
+
+Note that day1 and day2 don't contain both solutions because they weren't tracked in git at the time.
