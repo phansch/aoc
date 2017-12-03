@@ -1,9 +1,21 @@
 use std::io::{self, Read};
 
-// curl https://adventofcode.com/2017/day/3/input > ~/code/rust/advent3/input
-
 fn main() {
     let data = read();
+}
+
+fn part1() {
+    let solution = 0;
+    println!("{}", solution);
+}
+
+fn part2() {
+    let solution = 0;
+    println!("{}", solution);
+}
+
+fn parse() {
+    
 }
 
 fn read() -> String {
@@ -11,10 +23,6 @@ fn read() -> String {
     let mut buffer = String::new();
     stdin.read_to_string(&mut buffer);
     buffer
-}
-
-fn parse() {
-    
 }
 
 #[cfg(test)]
