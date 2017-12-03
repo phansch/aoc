@@ -1,13 +1,13 @@
 #!/bin/sh
 
-# Usage: . ./new_advent N
+# Usage: . ./new_day N
 name="day$1"
 
 cargo new "$name" --bin
 
 curl "https://adventofcode.com/2017/day/$1/input" > "$name"
 
-cp -f advent_template/src/main.rs "$name/src/main.rs"
+cp -f template/src/main.rs "$name/src/main.rs"
 
 cd "$name"
 vim src/main.rs
