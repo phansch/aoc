@@ -1,3 +1,9 @@
+# Advent of code
+
+Solutions for https://adventofcode.com
+
+### new_day script
+
 Start a new day by running `. ./new_day N` where N is the number of the challenge.
 
 That script automates a bunch of stuff, because my time is limited:
