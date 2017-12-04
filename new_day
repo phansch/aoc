@@ -5,9 +5,10 @@ name="day$1"
 
 cargo new "$name" --bin
 
-curl "https://adventofcode.com/2017/day/$1/input" > "$name"
+curl "https://adventofcode.com/2017/day/$1/input" > "$name/input"
 
 cp -f template/src/main.rs "$name/src/main.rs"
+cp -f template/.gitignore "$name/.gitignore"
 
 cd "$name"
 vim src/main.rs
